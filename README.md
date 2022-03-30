@@ -1,3 +1,8 @@
-# Supplemental material accompanying the following paper:
+This is supplemental material accompanying paper *Predicting variability in nascent RNA from transcription initiation kinetics*. Here you can find computer code that predicts nascent RNA number distribution from the distribution of the times between successive transcription initiation events. 
 
-Predicting variability in nascent RNA from transcription initiation kinetics
+The files are organised as follows:
+| File | Type | Description |
+|-----------|-----------|-------------|
+|`eukaryotic-transcription-SSA.ipynb`|Jupyter notebook file with Julia code| Computes the initiation time distribution and the nascent RNA distribution using stochastic simulations|
+|`eukaryotic-transcription-exact.nb`|Mathematica notebook file|Computes the initiation time distribution and the nascent RNA distribution using inverse Laplace transform|
+
